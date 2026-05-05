@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>개인정보 처리방침 — 컴활패스 2급</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Apple SD Gothic Neo", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px 80px; line-height: 1.7; color: #1a1a1a; background: #fff; }
+  h1 { font-size: 26px; margin: 0 0 8px; letter-spacing: -0.4px; }
+  h2 { font-size: 18px; margin: 32px 0 12px; letter-spacing: -0.3px; }
+  p, li { font-size: 15px; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 14px; }
+  th, td { border: 1px solid #e0e0e0; padding: 10px 12px; text-align: left; vertical-align: top; }
+  th { background: #fafafa; font-weight: 600; }
+  code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+  hr { border: none; border-top: 1px solid #e0e0e0; margin: 32px 0; }
+  .meta { color: #666; font-size: 13px; margin-bottom: 24px; }
+  .summary { background: #f0f7ff; border-left: 3px solid #1565ff; padding: 14px 18px; margin: 16px 0 28px; border-radius: 6px; }
+  ul { padding-left: 22px; }
+  a { color: #1565ff; }
+  @media (prefers-color-scheme: dark) { body { background: #111; color: #eee; } th { background: #222; } th, td { border-color: #333; } code { background: #222; color: #eee; } hr { border-top-color: #333; } .summary { background: #0d2748; } }
+</style>
+</head>
+<body>
+<h1>개인정보 처리방침 — 컴활패스 2급</h1>
+<p class="meta">시행일: 2026년 5월 5일 · 앱 이름: 컴활패스 2급 · 번들 ID: <code>com.leeminyong.ComHwal</code></p>
+<p>본 방침은 컴활패스 2급 모바일 앱(이하 "앱")이 사용자의 정보를 어떻게 수집·이용·보관·삭제하는지를 안내합니다.</p>
+<div class="summary"><strong>한 줄 요약 —</strong> 이 앱은 사용자 정보를 외부 서버로 전송하지 않으며, 모든 학습 기록은 사용자 본인의 기기 안에만 저장됩니다.</div>
+
+<h2>1. 수집·저장하는 정보</h2>
+<table>
+  <thead><tr><th>항목</th><th>저장 위치</th><th>목적</th></tr></thead>
+  <tbody>
+    <tr><td>풀이 기록 (문제 ID, 정답 여부, 일시, 과목·카테고리·난이도)</td><td>기기 내부 SwiftData</td><td>통계·약점 분석</td></tr>
+    <tr><td>즐겨찾기한 문제·핵심노트 ID</td><td>기기 내부 SwiftData</td><td>즐겨찾기 모음</td></tr>
+    <tr><td>모의고사 기록 (점수·시간·합격 여부)</td><td>기기 내부 SwiftData</td><td>모의고사 이력</td></tr>
+    <tr><td>진행 중인 풀이 상태 (이어 풀기)</td><td>기기 내부 UserDefaults</td><td>풀이 재개</td></tr>
+    <tr><td>설정값 (테마·시험일·알림 시각 등)</td><td>기기 내부 UserDefaults</td><td>앱 환경 설정</td></tr>
+  </tbody>
+</table>
+<p><strong>위 정보는 모두 사용자의 기기를 떠나지 않습니다.</strong> 앱은 자체 서버를 운영하지 않으며 외부로 전송하는 통신이 없습니다.</p>
+
+<h2>2. 수집하지 않는 정보</h2>
+<ul>
+  <li>이름·전화번호·이메일·주소 등 신원 정보</li>
+  <li>위치 정보(GPS·Wi-Fi·셀룰러)</li>
+  <li>연락처·캘린더·사진·미디어 라이브러리</li>
+  <li>기기 식별자 (IDFA, IDFV 등)</li>
+  <li>사용 통계·분석·크래시 리포트 (3rd-party SDK 미사용)</li>
+</ul>
+
+<h2>3. 권한 사용</h2>
+<table>
+  <thead><tr><th>권한</th><th>용도</th><th>거부 시 영향</th></tr></thead>
+  <tbody><tr><td><strong>알림</strong></td><td>설정한 시각의 학습 리마인더</td><td>알림이 표시되지 않음</td></tr></tbody>
+</table>
+
+<h2>4. Apple Intelligence (온디바이스 AI)</h2>
+<p>[AI 코칭] 기능은 iOS 26 이상의 Apple Intelligence (Foundation Models) 를 사용합니다. 모든 처리는 사용자 기기 안에서 이뤄지며 외부 서버로 전송되지 않습니다. 미지원 기기에서는 자동으로 규칙 기반 분석으로 대체됩니다.</p>
+
+<h2>5. 음성 출력(TTS)</h2>
+<p>iOS 시스템 음성 합성(<code>AVSpeechSynthesizer</code>)을 사용하며 모든 처리는 기기 내부에서 이뤄집니다.</p>
+
+<h2>6. 제3자 제공·공유</h2>
+<p>앱은 사용자 정보를 <strong>제3자에게 제공·공유·판매하지 않습니다.</strong> 제3자 분석·광고 SDK 도 포함되어 있지 않습니다.</p>
+
+<h2>7. 보관 및 삭제</h2>
+<ul>
+  <li>모든 학습 기록은 사용자가 앱을 삭제할 때까지 기기에 보관</li>
+  <li>[앱 → 설정 → 기록 초기화] 로 언제든 모두 삭제 가능</li>
+  <li>앱 삭제 시 데이터는 iOS 정책에 따라 즉시 제거</li>
+</ul>
+
+<h2>8. 14세 미만 사용자</h2>
+<p>앱은 일반 학습 도구로 식별 정보를 수집하지 않습니다. 14세 미만은 보호자 동의 하에 사용해 주세요.</p>
+
+<h2>9. 사용자 권리</h2>
+<ul>
+  <li><strong>열람</strong>: 모든 데이터를 앱 화면에서 직접 확인</li>
+  <li><strong>삭제</strong>: [기록 초기화] 또는 앱 삭제로 즉시 삭제</li>
+</ul>
+
+<h2>10. 보안</h2>
+<p>모든 데이터는 사용자 기기 내부에 저장되며 iOS 의 샌드박스·암호화 정책의 보호를 받습니다.</p>
+
+<h2>11. 처리방침 변경</h2>
+<p>변경 시 시행일과 함께 본 페이지에 게시합니다.</p>
+
+<h2>12. 문의처</h2>
+<p>개발자: 이민용 (Lee Minyong)<br>이메일: <code>여기에 본인 이메일 적기</code></p>
+
+<hr>
+<h2>Privacy Policy (English Summary)</h2>
+<p>This app does <strong>not</strong> collect, transmit, or share any personal data with external servers. All data is stored locally on your device. AI Coaching uses Apple Intelligence on-device. No analytics, no ads, no tracking. Delete records anytime via Settings.</p>
+<p>Contact: <code>your email here</code></p>
+</body>
+</html>
